@@ -67,15 +67,12 @@ Feature Description
 ✅ Proof of connection Reads actual wpa_state=COMPLETED from supplicant
 🚪 Clean exit 0 or q to quit, Ctrl+C for interrupt
 
----
-
-<p align="center">
-  <img
-    src="./assets/animation.svg"
-    alt="WPA101 Cinematic Cybersecurity Console"
-    width="100%"
-  />
+---<p align="center">
+  <img src="./assets/animation.svg"
+       alt="WPA101 Cinematic Cybersecurity"
+       width="100%" />
 </p>
+
 
 <h1 align="center">WPA101</h1>
 
