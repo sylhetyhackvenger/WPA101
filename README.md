@@ -65,7 +65,24 @@ Feature Description
 
 ---
 
-🏗️ 
+<p align="center">
+  <img
+    src="./wpa101_cinematic_readme.svg"
+    alt="WPA101 Cinematic Wi-Fi Security Console"
+    width="100%"
+  />
+</p>
+
+<h1 align="center">⚡ WPA101 ⚡</h1>
+
+<p align="center">
+  <b>WiFi Brute-forcing Tool</b><br>
+  Gray Hat Cybersecurity • Visual Simulation
+</p>
+
+<p align="center">
+  <code>SYLHETYHACKVENGER (THE-ERROR808)</code>
+</p>
 ---
 
 📋 Requirements
