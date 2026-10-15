@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+<title id="title">WPA101 High Resolution Cyber Operations Console</title>
+<desc id="desc">A high-resolution 16:9 cinematic game-like cybersecurity operations dashboard with large readable typography, crisp telemetry panels, network topology, spectrum bars, event log, and restrained continuous animation.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05080d"/><stop offset=".52" stop-color="#0b121b"/><stop offset="1" stop-color="#080b12"/></linearGradient>
+  <linearGradient id="top" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#182431"/><stop offset="1" stop-color="#0c141e"/></linearGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".38" stop-color="#d8e6ef"/><stop offset=".7" stop-color="#8097a8"/><stop offset="1" stop-color="#e9f3fa"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00a8cb"/><stop offset=".52" stop-color="#4ce9ff"/><stop offset="1" stop-color="#168db8"/></linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9f1935"/><stop offset=".5" stop-color="#ff4265"/><stop offset="1" stop-color="#b71e40"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#111c27"/><stop offset="1" stop-color="#080e15"/></linearGradient>
+  <radialGradient id="ambient"><stop stop-color="#087fa5" stop-opacity=".22"/><stop offset="1" stop-color="#07101a" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#7193a8" stroke-opacity=".06"/></pattern>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .ui{font-family:Inter,'Segoe UI',Arial,sans-serif}
+    .white{fill:#edf5fa}.soft{fill:#b3c3cf}.muted{fill:#8b9eac}.cyan{fill:#4ce5fb}.green{fill:#68e6a8}.amber{fill:#ffd078}.redtxt{fill:#ff617c}
+    .label{font-size:18px;letter-spacing:2px}.body{font-size:22px}.small{font-size:19px}.large{font-size:28px}
+    .panel{fill:url(#panel);stroke:#2b4050;stroke-width:2}.rule{stroke:#304451;stroke-width:1.5}
+    .trace{fill:none;stroke:#31d9f5;stroke-width:2;stroke-dasharray:8 12;animation:trace 8s linear infinite}
+    .live{animation:live 1.8s ease-in-out infinite}.live2{animation:live 2.4s ease-in-out .7s infinite}
+    .sweep{animation:sweep 8s linear infinite}.barflow{transform-box:fill-box;transform-origin:left center;animation:barflow 8s ease-in-out infinite}
+    .cursor{animation:cursor 1s steps(2,end) infinite}.orbit{transform-origin:1110px 390px;animation:orbit 24s linear infinite}
+    @keyframes live{0%,100%{opacity:.45}50%{opacity:1}}
+    @keyframes sweep{0%{transform:translateY(0);opacity:0}8%{opacity:.32}92%{opacity:.2}100%{transform:translateY(720px);opacity:0}}
+    @keyframes trace{to{stroke-dashoffset:-320}}
+    @keyframes barflow{0%{transform:scaleX(.4)}38%{transform:scaleX(.88)}68%{transform:scaleX(.63)}100%{transform:scaleX(.96)}}
+    @keyframes cursor{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @keyframes orbit{to{transform:rotate(360deg)}}
+    @media(prefers-reduced-motion:reduce){.trace,.live,.live2,.sweep,.barflow,.cursor,.orbit{animation:none}}
+  </style>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/><rect width="1920" height="1080" fill="url(#grid)"/>
+<ellipse cx="1120" cy="400" rx="570" ry="450" fill="url(#ambient)"/>
+<rect x="24" y="24" width="1872" height="1032" rx="18" fill="#05090f" stroke="#40515e" stroke-width="2"/>
+<path d="M42 24H1878A18 18 0 0 1 1896 42V92H24V42A18 18 0 0 1 42 24Z" fill="url(#top)"/>
+<circle cx="58" cy="58" r="7" fill="#ff5e6d"/><circle cx="82" cy="58" r="7" fill="#e6b65d"/><circle cx="106" cy="58" r="7" fill="#52d996"/>
+<text x="138" y="67" class="ui body soft">WPA101</text><text x="250" y="67" class="mono body muted">/</text><text x="274" y="67" class="ui small muted">WIRELESS SECURITY OPERATIONS</text>
+<text x="1860" y="66" text-anchor="end" class="mono small muted">SECURE WORKSPACE  /  BUILD 0101</text>
+<path d="M24 92H1896" stroke="#40515e" stroke-width="2"/>
+
+<!-- Brand -->
+<text x="70" y="143" class="mono label cyan">SYLHETYHACKVENGER  /  THE-ERROR808</text>
+<text x="70" y="205" class="ui" font-size="56" font-weight="800" fill="url(#steel)" letter-spacing="1">WPA101 <tspan fill="#8195a4" font-weight="400">/</tspan> CYBER OPERATIONS CONSOLE</text>
+<text x="70" y="246" class="ui body soft">Wireless security testing interface</text>
+<circle cx="1648" cy="145" r="7" fill="#68e6a8" class="live" filter="url(#glow)"/><text x="1670" y="153" class="mono body green">SYSTEM ONLINE</text>
+<text x="1860" y="193" text-anchor="end" class="mono small muted">LOCAL WORKSPACE  ·  AUTHORIZED TESTING</text>
+<path d="M68 270H1852" class="rule"/>
+
+<!-- Left panel -->
+<rect x="68" y="294" width="390" height="482" rx="9" class="panel"/>
+<text x="98" y="337" class="mono label muted">01 / RADIO TELEMETRY</text>
+<text x="98" y="383" class="ui large white" font-weight="700">Signal environment</text>
+<text x="98" y="423" class="mono small muted">LAB ACCESS POINTS</text><path d="M98 440H428" class="rule"/>
+<g class="mono body">
+ <text x="98" y="482" class="white">LAB-GUEST</text><text x="428" y="482" text-anchor="end" class="green">-42 dBm</text>
+ <text x="98" y="526" class="white">TEST-AP-02</text><text x="428" y="526" text-anchor="end" class="cyan">-58 dBm</text>
+ <text x="98" y="570" class="white">DEMO-NET</text><text x="428" y="570" text-anchor="end" class="amber">-71 dBm</text>
+</g>
+<path d="M98 493H192M98 537H160M98 581H126" stroke-width="4" stroke-linecap="round" stroke="#4ce5fb"/>
+<text x="98" y="624" class="mono label muted">SPECTRUM ACTIVITY</text><path d="M98 640H428" class="rule"/>
+<g fill="#22c5e4" opacity=".9">
+ <rect x="100" y="686" width="10" height="48"/><rect x="118" y="667" width="10" height="67"/><rect x="136" y="698" width="10" height="36"/><rect x="154" y="656" width="10" height="78"/><rect x="172" y="678" width="10" height="56"/><rect x="190" y="648" width="10" height="86"/><rect x="208" y="691" width="10" height="43"/><rect x="226" y="671" width="10" height="63"/><rect x="244" y="682" width="10" height="52"/><rect x="262" y="658" width="10" height="76"/><rect x="280" y="696" width="10" height="38"/><rect x="298" y="673" width="10" height="61"/><rect x="316" y="664" width="10" height="70"/><rect x="334" y="687" width="10" height="47"/><rect x="352" y="653" width="10" height="81"/><rect x="370" y="677" width="10" height="57"/><rect x="388" y="666" width="10" height="68"/><rect x="406" y="690" width="10" height="44"/>
+</g>
+
+<!-- Center network map -->
+<rect x="478" y="294" width="830" height="482" rx="9" class="panel"/>
+<text x="510" y="337" class="mono label muted">02 / NETWORK TOPOLOGY</text>
+<text x="510" y="383" class="ui large white" font-weight="700">Wireless environment map</text>
+<text x="1274" y="337" text-anchor="end" class="mono small cyan">LIVE VIEW</text>
+<path d="M510 405H1276" class="rule"/>
+<g fill="none" stroke="#31596b" stroke-width="2">
+ <path d="M900 566L682 472 594 548M900 566L708 674 590 648M900 566L1110 468 1205 542M900 566L1098 672 1206 645M900 566L900 450M900 566L900 716"/>
+</g>
+<g class="trace"><path d="M900 566L682 472 594 548"/><path d="M900 566L1098 672 1206 645"/><path d="M900 566L900 450"/></g>
+<circle cx="900" cy="566" r="94" fill="#0a2634" stroke="#276b83" stroke-width="2"/>
+<circle cx="900" cy="566" r="73" fill="none" stroke="#1d6478" stroke-dasharray="5 10" class="orbit"/>
+<circle cx="900" cy="566" r="52" fill="#07121b" stroke="#36cfe9" stroke-width="2"/>
+<g fill="none" stroke="#b5f5ff" stroke-width="7" stroke-linecap="round" filter="url(#glow)">
+ <path d="M862 548Q900 510 938 548"/><path d="M875 565Q900 540 925 565"/><path d="M888 581Q900 570 912 581"/>
+</g>
+<circle cx="900" cy="593" r="5" fill="#dffcff"/>
+<text x="900" y="627" text-anchor="middle" class="mono small white">LAB-AP-01</text>
+<g>
+ <circle cx="682" cy="472" r="19" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="682" cy="472" r="5" fill="#4ce5fb" class="live"/>
+ <circle cx="594" cy="548" r="15" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="594" cy="548" r="4" fill="#68e6a8" class="live2"/>
+ <circle cx="708" cy="674" r="17" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="708" cy="674" r="5" fill="#4ce5fb" class="live"/>
+ <circle cx="590" cy="648" r="15" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="590" cy="648" r="4" fill="#ffd078" class="live2"/>
+ <circle cx="1110" cy="468" r="19" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="1110" cy="468" r="5" fill="#4ce5fb" class="live"/>
+ <circle cx="1205" cy="542" r="15" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="1205" cy="542" r="4" fill="#68e6a8" class="live2"/>
+ <circle cx="1098" cy="672" r="17" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="1098" cy="672" r="5" fill="#4ce5fb" class="live"/>
+ <circle cx="1206" cy="645" r="15" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="1206" cy="645" r="4" fill="#ffd078" class="live2"/>
+ <circle cx="900" cy="450" r="15" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="900" cy="450" r="4" fill="#68e6a8" class="live"/>
+ <circle cx="900" cy="716" r="15" fill="#111f2a" stroke="#3b8da5" stroke-width="2"/><circle cx="900" cy="716" r="4" fill="#4ce5fb" class="live2"/>
+</g>
+<g class="mono small soft">
+ <text x="520" y="463">CLIENT 01</text><text x="510" y="581">NODE 02</text><text x="650" y="713">CLIENT 03</text>
+ <text x="1080" y="438">NODE 04</text><text x="1200" y="578" text-anchor="end">CLIENT 05</text><text x="1068" y="713">CLIENT 06</text>
+ <text x="924" y="449">UPLINK</text><text x="924" y="722">MONITOR</text>
+</g>
+<path d="M510 740H1276" class="rule"/><text x="510" y="764" class="mono small cyan">10 NODES</text><text x="700" y="764" class="mono small green">LINKS STABLE</text><text x="1276" y="764" text-anchor="end" class="mono small muted">LAB TELEMETRY</text>
+
+<!-- Right panel -->
+<rect x="1328" y="294" width="524" height="482" rx="9" class="panel"/>
+<text x="1360" y="337" class="mono label muted">03 / PROCESS MONITOR</text>
+<text x="1360" y="383" class="ui large white" font-weight="700">Workflow status</text>
+<text x="1818" y="337" text-anchor="end" class="mono small green">RUNNING</text>
+<path d="M1360 405H1820" class="rule"/>
+<g class="ui body">
+ <circle cx="1368" cy="451" r="6" fill="#68e6a8" class="live"/><text x="1390" y="459" class="soft">Interface readiness</text><text x="1818" y="459" text-anchor="end" class="green">READY</text>
+ <circle cx="1368" cy="501" r="6" fill="#68e6a8" class="live2"/><text x="1390" y="509" class="soft">Environment inventory</text><text x="1818" y="509" text-anchor="end" class="green">COMPLETE</text>
+ <circle cx="1368" cy="551" r="6" fill="#4ce5fb" class="live"/><text x="1390" y="559" class="soft">Handshake diagnostics</text><text x="1818" y="559" text-anchor="end" class="cyan">READY</text>
+ <circle cx="1368" cy="601" r="6" fill="#ffd078" class="live2"/><text x="1390" y="609" class="soft">Credential audit</text><text x="1818" y="609" text-anchor="end" class="amber">STAGED</text>
+</g>
+<text x="1360" y="657" class="mono label muted">ENGINE UTILIZATION</text>
+<rect x="1360" y="677" width="458" height="12" rx="6" fill="#1b2b37"/><rect x="1360" y="677" width="458" height="12" rx="6" fill="url(#cyan)" class="barflow"/>
+<text x="1360" y="728" class="mono small muted">CPU</text><text x="1420" y="728" class="mono small white">34%</text>
+<text x="1580" y="728" class="mono small muted">MEMORY</text><text x="1680" y="728" class="mono small white">612 MB</text>
+<text x="1360" y="759" class="mono small muted">SESSION HEALTH</text><text x="1818" y="759" text-anchor="end" class="mono small green">NOMINAL</text>
+
+<!-- large readable log bar -->
+<rect x="68" y="800" width="1784" height="174" rx="9" class="panel"/>
+<text x="98" y="840" class="mono label cyan">04 / SYSTEM EVENT STREAM</text>
+<text x="1818" y="840" text-anchor="end" class="mono small muted">LOCAL SESSION LOG</text>
+<path d="M98 858H1820" class="rule"/>
+<g class="mono body">
+ <text x="98" y="893" class="muted">21:08:04.112</text><text x="300" y="893" class="cyan">INFO</text><text x="390" y="893" class="white">Radio interface initialized</text><text x="1818" y="893" text-anchor="end" class="green">OK</text>
+ <text x="98" y="927" class="muted">21:08:04.938</text><text x="300" y="927" class="cyan">INFO</text><text x="390" y="927" class="white">Telemetry channel synchronized</text><text x="1818" y="927" text-anchor="end" class="green">OK</text>
+ <text x="98" y="961" class="muted">21:08:05.406</text><text x="300" y="961" class="amber">WARN</text><text x="390" y="961" class="white">Audit stage awaiting operator confirmation</text><text x="1818" y="961" text-anchor="end" class="amber">WAIT</text>
+</g>
+<rect x="975" y="948" width="10" height="20" fill="#4ce5fb" class="cursor"/>
+<path d="M68 994H1852" class="rule"/>
+<text x="70" y="1028" class="ui body white" font-weight="700">WPA101</text><text x="180" y="1028" class="mono small muted">GRAY HAT CYBERSECURITY TOOL</text>
+<text x="960" y="1028" text-anchor="middle" class="mono small muted">SYLHETYHACKVENGER (THE-ERROR808)</text>
+<text x="1850" y="1028" text-anchor="end" class="mono small cyan">SECURITY / VISIBILITY / CONTROL</text>
+<text x="960" y="1051" text-anchor="middle" class="mono" font-size="14" fill="#7c8f9e">UI TELEMETRY IS VISUAL ONLY · NO NETWORK ACTIONS ARE TRIGGERED BY THIS SVG</text>
+<g class="sweep"><rect x="32" y="286" width="1856" height="3" fill="#4ce5fb" opacity=".48" filter="url(#glow)"/></g>
+</svg>
