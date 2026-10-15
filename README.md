@@ -44,7 +44,7 @@ This tool is intended for authorized security testing on your own router or netw
 
 🧠 Overview
 
-WPA101 is a professional, OneShot-architecture WiFi brute-forcing engine built for rooted Android devices running Termux and Linux systems. It leverages a private wpa_supplicant instance communicating directly through the nl80211 driver — completely bypassing Android's HAL and framework restrictions.
+WPA101 is a professional, WiFi brute-forcing engine built for rooted Android devices running Termux and Linux systems. It leverages a private wpa_supplicant instance communicating directly through the nl80211 driver — completely bypassing Android's HAL and framework restrictions.
 
 Unlike traditional brute-forcers that rely on wpa_cli, wpa_supplicant.conf edits, or deprecated tools like reaver/bully, WPA101 spawns its own isolated wpa_supplicant process, talks to it via a UNIX control socket, and performs handshake-based PSK validation in real time.
 
