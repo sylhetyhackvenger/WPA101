@@ -1,4 +1,8 @@
 # WPA101 — WiFi Brute-forcing Tool
+<p align="center">
+  <img src="assets/1.png" alt="Banner 1" width="100%">
+</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-WPA101-blueviolet?style=for-the-badge"/>
@@ -104,7 +108,9 @@ Tested On
 · Ubuntu 22.04 / 24.04
 
 ---
-
+<p align="center">
+  <img src="assets/2.png" alt="Banner 2" width="100%">
+</p>
 🚀 Installation
 
 Termux (Rooted Android)
